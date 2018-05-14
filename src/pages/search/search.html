@@ -1,22 +1,28 @@
+<!--
+  Generated template for the SearchPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>{{ 'SEARCH_TITLE' | translate }}</ion-title>
+  <ion-navbar color="dark" text-center>
+    <ion-title>SERVICES</ion-title>
   </ion-navbar>
 
 </ion-header>
 
+<ion-content padding>
+ <ion-card>
+  <img src="../../assets/img/search.png"/>
+  <ion-card-content>
+    <ion-card-title>
+      SEARCH ENGINE OPTIMIZATION
+      </ion-card-title>
+    <p>
+      If you need to position and promote your brand is necessary to be competitive and achieve strategies to accelerate growth in the market, Monesco offers highly qualified and committed professionals to achieve their dreams. We work with you for your future!
+    </p>
+  </ion-card-content>
+</ion-card>
 
-<ion-content>
-  <ion-searchbar (ionInput)="getItems($event)" placeholder="{{ 'SEARCH_PLACEHOLDER' | translate }}"></ion-searchbar>
-  <ion-list>
-    <button ion-item (click)="openItem(item)" *ngFor="let item of currentItems">
-      <ion-avatar item-start>
-        <img [src]="item.profilePic" />
-      </ion-avatar>
-      <h2>{{item.name}}</h2>
-      <p>{{item.about}}</p>
-      <ion-note item-end *ngIf="item.note">{{item.note}}</ion-note>
-    </button>
-  </ion-list>
 </ion-content>

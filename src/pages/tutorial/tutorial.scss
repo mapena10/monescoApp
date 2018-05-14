@@ -3,6 +3,22 @@ page-tutorial {
     background: transparent;
     border-color: transparent;
   }
+    .client{
+        text-align: center;
+        img{
+            height: 18%;
+            width: 18%;
+        }
+    }
+    ion-slides{
+        height: 70%;
+    }
+    .divider{
+        background-color: #009933;
+        text-align: center;
+        color:white;
+        font-size: 0.6em;
+      }
 
   .slide-zoom {
     height: 100%;
@@ -15,7 +31,7 @@ page-tutorial {
   .slide-image {
     max-height: 40%;
     max-width: 60%;
-    margin: 36px 0;
+    margin: 16px 0;
   }
 
   b {

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController } from 'ionic-angular';
 
+
 @IonicPage()
 @Component({
   selector: 'page-content',
@@ -9,5 +10,11 @@ import { IonicPage, NavController } from 'ionic-angular';
 export class ContentPage {
 
   constructor(public navCtrl: NavController) { }
-
+    
+irServices (){
+    this.navCtrl.push('ServicesPage');
+}
+    irPortafolio (){
+        this.navCtrl.push('PortafolioPage')
+    }
 }

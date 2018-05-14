@@ -1,0 +1,268 @@
+<!--
+  Generated template for the PortafolioPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+   <ion-navbar color="dark" text-center>
+    <ion-title>PORTAFOLIO</ion-title>
+  </ion-navbar>
+ 
+    
+ <ion-toolbar no-border>
+    <ion-segment [(ngModel)]="service">
+      <ion-segment-button value="business">
+        Business Cars
+      </ion-segment-button>
+      <ion-segment-button value="ecomerce">
+        Ecommerce
+      </ion-segment-button>
+      <ion-segment-button value="logos">
+        Logos
+      </ion-segment-button>
+      <ion-segment-button value="websites">
+        Websites
+      </ion-segment-button>    
+    </ion-segment>
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content padding>
+ <div [ngSwitch]="service">
+    <ion-list *ngSwitchCase="'business'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/GG.jpg">
+        </ion-thumbnail>
+        <h2>Monesco</h2>
+       </ion-item>
+     <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/FF.jpg">
+        </ion-thumbnail>
+        <h2>MANGOS</h2>
+       </ion-item>
+     <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/EE.jpg">
+        </ion-thumbnail>
+        <h2>AUTOSMART</h2>
+       </ion-item>
+    <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/DD.jpg">
+        </ion-thumbnail>
+        <h2>TAMAR</h2>
+       </ion-item>  
+    <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/CC.jpg">
+        </ion-thumbnail>
+        <h2>DECON</h2>
+     </ion-item>    
+      
+    <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/BB.jpg">
+        </ion-thumbnail>
+        <h2>JOYCE`S</h2>
+       </ion-item>      
+   <ion-item>
+    <ion-thumbnail item-start>
+          <img src="../../assets/img/AA.jpg">
+        </ion-thumbnail>
+        <h2>BIX PLAN</h2>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'ecomerce'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/5-min.png">
+        </ion-thumbnail>
+        <h2>PRINTORIENTE</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/4-min.png">
+        </ion-thumbnail>
+        <h2>MERCAITO</h2>
+      </ion-item>    
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/2-min.png">
+        </ion-thumbnail>
+        <h2>PRESTOPRINT</h2>
+      </ion-item>
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/wakamole.png">
+        </ion-thumbnail>
+        <h2>WAKAMOLE</h2>
+      </ion-item>        
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/miel.png">
+        </ion-thumbnail>
+        <h2>MIELCANELA</h2>
+      </ion-item>
+        <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/gilmat.png">
+        </ion-thumbnail>
+        <h2>GILMAT</h2>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'logos'">
+       <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/6-min.jpg">
+        </ion-thumbnail>
+        <h2>ITEACH LOGO</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/15.jpg">
+        </ion-thumbnail>
+        <h2>COURTAGER IMMOBILIER</h2>
+      </ion-item>    
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/14.jpg">
+        </ion-thumbnail>
+        <h2>APPTUALIZATE</h2>
+      </ion-item>
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/12.jpg">
+        </ion-thumbnail>
+        <h2>VIVANDA</h2>
+      </ion-item>        
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/11.jpg">
+        </ion-thumbnail>
+        <h2>KID BOX LUNCH</h2>
+      </ion-item>
+        <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/10.jpg">
+        </ion-thumbnail>
+        <h2>AZTECA MEXICAN CANDY</h2>
+      </ion-item>
+     <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/9.jpg">
+        </ion-thumbnail>
+        <h2>NUTRITION FOR BALANCE</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/8.jpg">
+        </ion-thumbnail>
+        <h2>BIO VAR</h2>
+      </ion-item>    
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/7.jpg">
+        </ion-thumbnail>
+        <h2>MANGOS</h2>
+      </ion-item>
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/6.jpg">
+        </ion-thumbnail>
+        <h2>PAPAGAYO</h2>
+      </ion-item>        
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/4.jpg">
+        </ion-thumbnail>
+        <h2>TAMAR</h2>
+      </ion-item>
+        <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/3.jpg">
+        </ion-thumbnail>
+        <h2>PLASTICOS CARORA</h2>
+      </ion-item>        
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/2.jpg">
+        </ion-thumbnail>
+        <h2>ROCOTE</h2>
+      </ion-item>        
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/1.jpg">
+        </ion-thumbnail>
+        <h2>LION FACE</h2>
+      </ion-item>
+    </ion-list>
+  
+        
+   <ion-list *ngSwitchCase="'websites'">
+       <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/3-min.png">
+        </ion-thumbnail>
+        <h2>RICANA TOURS</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/1-min.png">
+        </ion-thumbnail>
+        <h2>GRAPHICSTAFF</h2>
+      </ion-item>    
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/pets.png">
+        </ion-thumbnail>
+        <h2>PETS AT PARK</h2>
+      </ion-item>
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/nutrition.png">
+        </ion-thumbnail>
+        <h2>NUTRITION FOR BALANCE</h2>
+      </ion-item>        
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/not.png">
+        </ion-thumbnail>
+        <h2>NOTICIAS RVE</h2>
+      </ion-item>
+        <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/nbforex.png">
+        </ion-thumbnail>
+        <h2>NB FOREX</h2>
+      </ion-item>
+     <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/vey.png">
+        </ion-thumbnail>
+        <h2>VAMOS EN YATE</h2>
+      </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/img/udomun.png">
+        </ion-thumbnail>
+        <h2>UDOMUN</h2>
+      </ion-item>    
+      <ion-item>
+      <ion-thumbnail item-start>
+          <img src="../../assets/img/fs.png">
+        </ion-thumbnail>
+        <h2>FRESHSOLUTIONS</h2>
+      </ion-item>
+   
+ 
+    </ion-list>
+  </div>
+</ion-content>

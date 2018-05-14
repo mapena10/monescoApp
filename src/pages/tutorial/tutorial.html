@@ -15,16 +15,27 @@
       <p [innerHTML]="slide.description"></p>
     </ion-slide>
     <ion-slide>
-      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image" />
+      <img src="assets/img/app.png" class="slide-image" />
       <h2 class="slide-title">{{ 'TUTORIAL_SLIDE4_TITLE' | translate }}</h2>
-      <button ion-button icon-end large clear (click)="startApp()">
+      <button ion-button icon-end full color="dark" (click)="startApp()">
         {{ 'TUTORIAL_CONTINUE_BUTTON' | translate }}
         <ion-icon name="arrow-forward"></ion-icon>
       </button>
     </ion-slide>
   </ion-slides>
-<ion-item-divider>
+<ion-item-divider class="divider">
     <h3>WE ARE #1 IN WEB DESIGN AND DEVELOPMENT</h3>
 <h5>The secret of our long history is the loyalty of our satisfied customers.</h5>
 </ion-item-divider>
+    
+  <ion-navbar class="client" color="dark">
+      <ion-title>OUR PRECIOUS CLIENTS</ion-title>
+      
+      <img src="../../assets/img/sponsor_033.png"/>
+      <img src="../../assets/img/sponsor_0212.png"/>
+      <img src="../../assets/img/sponsor_0412.png"/>
+      <img src="../../assets/img/sponsor_061334.png"/>
+    <img src="../../assets/img/sponsor_011233.png"/>
+  </ion-navbar>
+        
 </ion-content>

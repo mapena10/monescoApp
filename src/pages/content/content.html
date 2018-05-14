@@ -1,13 +1,30 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Content
-    </ion-title>
+<ion-header no-shadow>
+  <ion-navbar color="dark" text-center>
+      <button ion-button menuToggle><ion-icon name="menu"></ion-icon></button>
+    <img src="../../assets/img/logo_monesco-1%20(1).png"/> 
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <p>
-    This is a perfect starting point for a page with primarily text content. The body is padded nicely and ready for prose.
-  </p>
+<ion-content>
+<h3 padding>MONESCO A NEW WAY CREATE</h3>
+<p padding>We are an innovative company integrated of young professionals, devoutly focused to train and modernize ourselves every day in order to offer quality and Excellency in all of our services.We wish to become the favorite solution provider in the technology sector.</p>
+<img style="width: auto; height: auto; text-align: center;" src="../../assets/img/hosting-ux.png"/>   
+  <ion-fab top right edge>
+    <button ion-fab mini><ion-icon name="add"></ion-icon></button>
+    <ion-fab-list>
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+    
+    <button ion-button full color="dark" (click)="irServices()">SERVICES</button>
+    <button ion-button full color="dark" (click)="irPortafolio()">PORTAFOLIO</button>
+    
+    
+    
+    
+
+
 </ion-content>
